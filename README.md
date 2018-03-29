@@ -1,19 +1,18 @@
 **THIS IS A WIP**
 **THE PLAYGROUND IS NOT LIVE**
 # The Playground #
-A self-organizing learning community around decentralized systems organized with
-$5000 funds for 6-week long adventures.
+A self-organizing learning community around decentralized systems giving
+individuals $5000 for 6-week long learning adventures.
 
 ## What is it? ##
-
-With the information systems available today there is the possibility for new
-learning systems. 
+With the information systems and tools available today there is the possibility
+for new learning systems.
 
 These will not look like schools and universitites. They will reflect the tools
 they are built with, and be decentralized and self-organizing, with individual
-autonomy as the foundational unit.
+autonomy at their core.
 
-This is a community to explore this possibility. Individuals define their own
+**This is a community to explore this possibility***. Individuals define their own
 learning, the subject and structure, and connect it to others. Funds are
 distributed to them over a 6 week period to enable experimentation, creation,
 and novelty.
@@ -26,9 +25,10 @@ will evolve. This makes it a perfect subject matter for this community.
 
 ### 1. Propose an Adventure! ###
 Anyone can submit an adventure proposal as a PR. A proposal defines explicitly
-what you plan to learn, what structures and systems you will use. It also
-defines _outputs_, concrete things your adventure will produce, and ties those
-outputs to funding.
+what you plan to learn and what structures and systems you will use.
+
+It also defines _artifacts_, concrete things your adventure will produce, and ties
+those artifacts to funding, creating a guideline for what you need to accomplish.
 
 ### 2. The community engages ###
 Once you create a proposal, it's public. Others can comment on it, copy it, or
@@ -47,15 +47,28 @@ Proposals are judged on:
 All these criteria apply holisticly, to both what is being learned and the
 systems for learning it.
 
+This is where value emerges. Proposals are selected that push forward not just
+the learners, but the community.
+
 ### 3. Iterate or Embark! ###
-If you're funded, it's time to start learning! If you're not it's also time to
-start learning (and then applying again with what you learned).
+If you're funded, it's time to start learning! 
 
 Each week you must fulfill the guidelines set in your proposal in order to
 recieve the portion of the funds. This could be anything from writing a regular
 log, to particular milestones, to checking in with a designated advisor.
 
-The funds
+The artifacts you produce will be recorded in this repo for others to discover.
+
+What this actually looks like, is entirely determined by your proposal.
+
+### 4. Things emerge ###
+The goal of this process is not to produce any particular products, but to
+facillitate a collective exploration of the possibilities around decentralized
+systems and learning.
+
+Adventures will build on, and connect to, each other. They can learn from
+mistakes and replicate successes. The systems they use, and the system of the
+playground itself, will grow more robust, and scalable.
 
 ## Get Involved ##
 - Want to be an adventurer? Check out existing adventures [here](/adventures)
