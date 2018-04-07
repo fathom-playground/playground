@@ -12,7 +12,7 @@ These will not look like schools and universitites. They will reflect the tools
 they are built with, and be decentralized and self-organizing, with individual
 autonomy at their core.
 
-**This is a community to explore this possibility***. Individuals define their own
+**This is a community to explore this possibility**. Individuals define their own
 learning, the subject and structure, and connect it to others. Funds are
 distributed to them over a 6 week period to enable experimentation, creation,
 and novelty.
@@ -29,6 +29,8 @@ what you plan to learn and what structures and systems you will use.
 
 It also defines _artifacts_, concrete things your adventure will produce, and ties
 those artifacts to funding, creating a guideline for what you need to accomplish.
+
+You can see the guidelines and current adventures [here](/adventures)
 
 ### 2. The community engages ###
 Once you create a proposal, it's public. Others can comment on it, copy it, or

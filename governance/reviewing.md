@@ -20,7 +20,7 @@ Once assigned a reviewer there are 3 outcomes:
 
 For either final outcome the reviewer should provide clear reasoning. 
 
-### Consensus and Veto
+### Consensus and Wildcards 
 When an application is escalated, all other reviwers can examine it. They can
 also comment. If they think it's a good idea they can approve it.
 
@@ -28,7 +28,7 @@ If a majority of reviewers approve an application then it gets merged in and is
 funded.
 
 If a majority does not, but a reviewer feels strongly about an application, they
-can veto it's funding. Each reviewer has 2 vetos.
+can unanimously fund it with a wildcard. Each reviewer has 2.
 
 
 ## The goals of this process
