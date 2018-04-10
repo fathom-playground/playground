@@ -1,78 +1,174 @@
-**THIS IS A WIP**
-**THE PLAYGROUND IS NOT LIVE**
-# The Playground #
-A self-organizing learning community around decentralized systems giving
-individuals $5000 for 6-week long learning adventures.
+# The Playground
+This is a distributed learning community around decentralized systems funding 6-week
+long learning adventures. We're exploring the future of learning organizations.
 
-## What is it? ##
-With the information systems and tools available today there is the possibility
-for new learning systems.
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
 
-These will not look like schools and universitites. They will reflect the tools
-they are built with, and be decentralized and self-organizing, with individual
-autonomy at their core.
+- [The Playground](#the-playground)
+    - [Motivation and Vision](#motivation-and-vision)
+- [How does it work](#how-does-it-work)
+    - [1. Propose an Adventure](#1-propose-an-adventure)
+        - [A Subject or Goal](#a-subject-or-goal)
+        - [A Structure and a Plan](#a-structure-and-a-plan)
+        - [Artifacts and Outcomes](#artifacts-and-outcomes)
+    - [2. Reviewing and funding](#2-reviewing-and-funding)
+        - [Criteria](#criteria)
+        - [Outcomes and Decision Making](#outcomes-and-decision-making)
+    - [3. Funding and Adventuring](#3-funding-and-adventuring)
+- [Change and Governance](#change-and-governance)
+    - [PlIPS](#plips)
+- [Appendix](#appendix)
+    - [Roles](#roles)
+        - [Reviewers](#reviewers)
+        - [Dictator](#dictator)
+        - [Funders](#funders)
 
-**This is a community to explore this possibility**. Individuals define their own
-learning, the subject and structure, and connect it to others. Funds are
-distributed to them over a 6 week period to enable experimentation, creation,
-and novelty.
+<!-- markdown-toc end -->
 
-The area of focus is decentralized systems. This field is at the centrepoint of
-a revolution in our digital systems and at the core of how our learning systems
-will evolve. This makes it a perfect subject matter for this community.
+## Motivation and Vision
+With the information and consensus systems available today there is the
+possibility for radically new learning systems.
 
-## How does it work? ##
+These will not look like today's institutions. They will be decentralized and
+self-organizing, built around individual autonomy and agency.
 
-### 1. Propose an Adventure! ###
-Anyone can submit an adventure proposal as a PR. A proposal defines explicitly
-what you plan to learn and what structures and systems you will use.
+**This is a community to explore this future**
 
-It also defines _artifacts_, concrete things your adventure will produce, and ties
-those artifacts to funding, creating a guideline for what you need to accomplish.
+The focus is on decentralized systems. They are driving a revolution in our
+digital infrastructure and provide powerful tools for us to leverage.
 
-You can see the guidelines and current adventures [here](/adventures)
+We're creating a space where individual goals and actions can combine into 
+powerful social systems, focused on _learning_, the creation of knowledge,
+not research or teaching, or any arbitrary silos.
 
-### 2. The community engages ###
+----------
+
+# How does it work
+The core process of the Playground is funding adventures. Each learner
+on an adventure defines it's subject and structure. Funds are
+distributed to learners over a 6 week period to enable experimentation,
+creation, and novelty.
+
+Each adventure is defined by a document [here](/adventures).
+
+## 1. Propose an Adventure
+Anyone can propose an adventure by opening a PR adding an adventure
+document.
+
+Adventures can be anything. For a proposal you need to decide how best
+to describe your goals and systems, and _if relevant_ your background.
+
+There are some general elements that your proposal should cover. They're
+what others will use to judge, connect to, and build on.
+
+### A Goal
+Every adventure is a journey towards knowledge. The direction of your journey
+journey should be clearly articulated.
+
+### A Structure
+The body of the adventure is the process and systems used to learn.
+These can be rigid or open-ended, but should be clearly defined. 
+
+### Community
+An adventure does not exist in isolation. It should build upon, connect
+to, support, and involve other adventures and the broader community.
+
+### Artifacts and Outcomes
+Finally, adventures result in artifacts. This can be anything from
+software created, to a log of your experiences. They should be
+openly-licensed and accessible to all.
+
+-------------------
+
+If you're looking for some inspiration for your proposal check out some
+[ideas](https://gitlab.com/fathom/playground/issues?label_name%5B%5D=idea),
+[other
+proposals](https://gitlab.com/fathom/playground/issues?label_name%5B%5D=proposal)
+or [funded adventures](/adventures)
+
+## 2. Reviewing and funding
 Once you create a proposal, it's public. Others can comment on it, copy it, or
-suggest changes.
+suggest changes. You can mark your proposal as WIP if you would like for
+it to be public but not yet reviewed.
 
-There is a rotating set of community members who make the call on whether or not
-to fund an Adventure. Either way the decision goes, they post feedback in the PR
-for future reference.
+When you're ready your PR will be assigned a reviewer. Anyone can become
+a reviewer by opening a [nomination issue](https://gitlab.com/fathom/playground/issues/new?issuable_template=reviewer).
+Each reviewer operates for a fixed term, and new reviewers are added via
+majority consensus. You can see the current reviewers
+[here](#reviewers).
 
-Proposals are judged on: 
+Reviewing is an interactive process; reviewers can ask questions or
+provide suggestions and feedback. 
+
+### Criteria
+Adventures are judged on:
 
 - How well defined they are
 - How they engage with existing adventures and the broader community
-- Their novelty and utility 
+- Whether they create knowledge, or support the creation of knowledge
 
-All these criteria apply holisticly, to both what is being learned and the
-systems for learning it.
+These crtieria extend to all aspects of an adventure, subject,
+structure, and artifacts.
 
-This is where value emerges. Proposals are selected that push forward not just
-the learners, but the community.
+### Outcomes and Decision Making
+A reviewer can either close a proposal, if they think it's not valuable
+to fund, or they can escalate it.
 
-### 3. Iterate or Embark! ###
-If you're funded, it's time to start learning! 
+Once escalated all reviewers read the proposal. A proposal can then be
+passed 2 ways: 
 
-Each week you must fulfill the guidelines set in your proposal in order to
-recieve the portion of the funds. This could be anything from writing a regular
-log, to particular milestones, to checking in with a designated advisor.
+1. Majority consensus from all reviewers
+2. A reviewer can unanimously pass a proposal with a wildcard (each
+reviewer begins their term with 2)
 
-The artifacts you produce will be recorded in this repo for others to discover.
+## 3. Funding and Adventuring
+Once an adventure is accepted a smart-contract is instantiated in order
+to distribute funds to the learner.
 
-What this actually looks like, is entirely determined by your proposal.
+STRESS REMOTE NATURE 
 
-### 4. Things emerge ###
-The goal of this process is not to produce any particular products, but to
-facillitate a collective exploration of the possibilities around decentralized
-systems and learning.
+The smart contract will allow them to withdraw funds at a fixed rate. It
+will also allow the [Dictator](#dictator) to freeze the
+funds indefintiely. These are the only two options.
 
-Adventures will build on, and connect to, each other. They can learn from
-mistakes and replicate successes. The systems they use, and the system of the
-playground itself, will grow more robust, and scalable.
+This will **only** be used if the participant stops actively working
+towards their adventure.
 
-## Get Involved ##
-- Want to be an adventurer? Check out existing adventures [here](/adventures)
-  and create proposal [here](https://gitlab.com/playground/issues/new?adventure).
-- Want fund this thing? See the process [here]
+# Change and Governance
+The playground, this community and the systems that support it, is
+intended to grow and change, and so needs a governance model.
+
+## PlIPS
+The main mechanism for change in the Playground are PlIPs, Playground
+Improvement Proposals. Anyone can create one by opening an
+[issue](https://gitlab.com/fathom/playground/issues/new?issuable_template=PlIP).
+
+After discussion a PlIP should result in an MR which can change any
+part of the Playground, including this document. 
+
+PlIPs can only be merged in by [Dictator](#dictator) who fills thie role
+for a fixed term. 
+
+
+# Appendix
+
+## Roles
+### Reviewers
+| Name          | Term Start | Wildcards |
+|---------------|------------|-----------|
+| Jared Pereira | 2018/04/06 | 2         |
+|               |            |           |
+
+### Dictator
+
+| Name          | Start      | Finish     |
+|---------------|------------|------------|
+| Jared Pereira | 2018/04/05 | 2018/08/01 |
+
+
+### Funders
+| Funder | Date       | Amount |
+|--------|------------|--------|
+| Test   | 2018-04-06 | $1000  |
+|        |            |        |
