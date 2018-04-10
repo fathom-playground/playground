@@ -27,20 +27,21 @@ long learning adventures. We're exploring the future of learning organizations.
 <!-- markdown-toc end -->
 
 ## Motivation and Vision
+Today's learning institutions are floundering. They are designed for a different
+age and divide up ideas and people in to arbitrary silos, creating barriers
+against collaboration in the pursuit of knowledge.
+
 With the information and consensus systems available today there is the
 possibility for radically new learning systems.
-
-These will not look like today's institutions. They will be decentralized and
-self-organizing, built around individual autonomy and agency.
 
 **This is a community to explore this future**
 
 The focus is on decentralized systems. They are driving a revolution in our
 digital infrastructure and provide powerful tools for us to leverage.
 
-We're creating a space where individual goals and actions can combine into 
-powerful social systems, focused on _learning_, the creation of knowledge,
-not research or teaching, or any arbitrary silos.
+We're creating a space where individual goals and actions can combine into
+powerful social systems, focused on enabling _learning_, the creation of
+knowledge, above all.
 
 ----------
 
