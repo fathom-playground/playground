@@ -27,21 +27,21 @@ long learning adventures. We're exploring the future of learning organizations.
 <!-- markdown-toc end -->
 
 ## Motivation and Vision
-Today's learning institutions are floundering. They are designed for a different
-age and divide up ideas and people in to arbitrary silos, creating barriers
-against collaboration in the pursuit of knowledge.
+Today's learning institutions are floundering. They divide ideas and people into
+arbitrary silos, creating barriers against collaboration in the pursuit of
+knowledge.
 
-With the information and consensus systems available today there is the
-possibility for radically new learning systems.
+With the tools and systems available today there is the possibility for
+radically new learning systems.
 
 **This is a community to explore this future**
 
-The focus is on decentralized systems. They are driving a revolution in our
-digital infrastructure and provide powerful tools for us to leverage.
+The focus is on decentralized systems. They are driving a revolution in 
+digital infrastructure and provide powerful tools.
 
-We're creating a space where individual goals and actions can combine into
-powerful social systems, focused on enabling _learning_, the creation of
-knowledge, above all.
+We're creating a space where individual goals and actions can flourish and
+combine into powerful social systems focused on empowering _learning_ above
+all.
 
 ----------
 
@@ -57,8 +57,10 @@ Each adventure is defined by a document [here](/adventures).
 Anyone can propose an adventure by opening a PR adding an adventure
 document.
 
-Adventures can be anything. For a proposal you need to decide how best
-to describe your goals and systems, and _if relevant_ your background.
+Adventures can be anything. Individual explorations of a niche subject, original
+research, study groups, or any other scenario you can imagine for learning about
+decentralized systems. For a proposal you need to decide how best to describe
+_your_ goals and systems
 
 There are some general elements that your proposal should cover. They're
 what others will use to judge, connect to, and build on.
@@ -109,8 +111,8 @@ Adventures are judged on:
 - How they engage with existing adventures and the broader community
 - Whether they create knowledge, or support the creation of knowledge
 
-These crtieria extend to all aspects of an adventure, subject,
-structure, and artifacts.
+These crtieria extend to all aspects of an adventure: subject,
+structure, community, and artifacts.
 
 ### Outcomes and Decision Making
 A reviewer can either close a proposal, if they think it's not valuable
