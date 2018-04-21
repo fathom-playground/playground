@@ -39,19 +39,19 @@ radically new learning systems.
 The focus is on decentralized systems. They are driving a revolution in 
 digital infrastructure and provide powerful tools.
 
-We're creating a space where individual goals and actions can flourish and
-combine into powerful social systems focused on empowering _learning_ above
-all.
+The playground challenges you to envision your ideal learning environment, build
+it, and connect it to others, building piece by piece a community focused on
+empowering _learning_ above all.
 
 ----------
 
 # How does it work
-The core process of the Playground is funding adventures. Each learner
-on an adventure defines it's subject and structure. Funds are
-distributed to learners over a 6 week period to enable experimentation,
-creation, and novelty.
+The core process of the Playground is funding adventures. Each learner on an
+adventure defines it's subject and structure, what they're learning and how.
+Funds are distributed to learners over a 6 week period to enable
+experimentation, creation, and novelty.
 
-Each adventure is defined by a document [here](/adventures).
+Each adventure is defined by a document in [/adventures](/adventures).
 
 ## 1. Propose an Adventure
 Anyone can propose an adventure by opening a PR adding an adventure
@@ -60,16 +60,16 @@ document.
 Adventures can be anything. Individual explorations of a niche subject, original
 research, study groups, or any other scenario you can imagine for learning about
 decentralized systems. For a proposal you need to decide how best to describe
-_your_ goals and systems
+_your_ adventure.
 
 There are some general elements that your proposal should cover. They're
-what others will use to judge, connect to, and build on.
+what others will judge, connect to, and build on.
 
 ### A Goal
 Every adventure is a journey towards knowledge. The direction of your journey
 journey should be clearly articulated.
 
-### A Structure
+### Structures
 The body of the adventure is the process and systems used to learn.
 These can be rigid or open-ended, but should be clearly defined. 
 
@@ -128,8 +128,6 @@ reviewer begins their term with 2)
 ## 3. Funding and Adventuring
 Once an adventure is accepted a smart-contract is instantiated in order
 to distribute funds to the learner.
-
-STRESS REMOTE NATURE 
 
 The smart contract will allow them to withdraw funds at a fixed rate. It
 will also allow the [Dictator](#dictator) to freeze the
