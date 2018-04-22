@@ -66,16 +66,19 @@ There are some general elements that your proposal should cover. They're
 what others will judge, connect to, and build on.
 
 ### A Goal
-Every adventure is a journey towards knowledge. The direction of your journey
-journey should be clearly articulated.
+What do you want to learn? Every adventure is a journey towards knowledge. To
+coordinate around your adventure the playground community needs to understand
+what it is you're going to learn.
 
 ### Structures
-The body of the adventure is the process and systems used to learn.
-These can be rigid or open-ended, but should be clearly defined. 
+_How_ are you going to learn? What are the systems and processes that will best
+create knowledge for you? What are the resources they will connect to? These can
+be rigid or open-ended, but should be clearly defined.
 
 ### Community
 An adventure does not exist in isolation. It should build upon, connect
-to, support, and involve other adventures and the broader community.
+to, support, and involve other adventures and the broader community. Who are you
+working with, who are the people who will support you?
 
 ### Artifacts and Outcomes
 Finally, adventures result in artifacts. This can be anything from
