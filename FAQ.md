@@ -3,7 +3,7 @@
 **Table of Contents**
 
 - [Frequentyly Asked Questions](#frequentyly-asked-questions)
-    - [-](#-)
+    - [What are decentralized systems](#what-are-decentralized-systems)
     - [Who can be a learner?](#who-can-be-a-learner)
     - [What can I do?](#what-can-i-do)
     - [What's in it for the funders?](#whats-in-it-for-the-funders)
