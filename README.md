@@ -94,9 +94,9 @@ all.
 -------------------
 
 If you're looking for some inspiration for your proposal check out some
-[ideas](https://gitlab.com/fathom/playground/issues?label_name%5B%5D=idea),
+[ideas](https://github.com/jaredpereira/playground/labels/idea),
 [other
-proposals](https://gitlab.com/fathom/playground/issues?label_name%5B%5D=proposal)
+proposals](https://github.com/jaredpereira/playground/labels/proposal)
 or [funded adventures](/adventures)
 
 ## Step 2. Get your proposal reviewed
@@ -156,7 +156,7 @@ intended to grow and change, and so needs a governance model.
 ## PLIPS
 The main mechanism for change in the Playground are PLIPs, Playground
 Improvement Proposals. Anyone can create one by opening an
-[issue](https://gitlab.com/fathom/playground/issues/new?issuable_template=PlIP).
+[issue](https://github.com/jaredpereira/playground/labels/PLIP).
 
 After discussion a PlIP should result in an PR which can only be merged in by
 the [Dictator](#dictator). However, PLIPS can change any part of the Playground,
@@ -172,7 +172,7 @@ including this rule.
 |               |            |           |
 
 Anyone can become a reviewer by opening a [nomination
-issue](https://gitlab.com/fathom/playground/issues/new?issuable_template=reviewer).
+issue](https://github.com/jaredpereira/playground/labels/reviewer).
 Each reviewer operates for a fixed term, and new reviewers are added via
 majority consensus.
 
