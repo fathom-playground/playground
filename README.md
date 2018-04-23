@@ -9,8 +9,9 @@ long learning adventures. We're exploring the future of learning organizations.
     - [Motivation and Vision](#motivation-and-vision)
 - [How does it work](#how-does-it-work)
     - [1. Propose an Adventure](#1-propose-an-adventure)
-        - [A Subject or Goal](#a-subject-or-goal)
-        - [A Structure and a Plan](#a-structure-and-a-plan)
+        - [A Goal](#a-goal)
+        - [Structures](#structures)
+        - [Community](#community)
         - [Artifacts and Outcomes](#artifacts-and-outcomes)
     - [2. Reviewing and funding](#2-reviewing-and-funding)
         - [Criteria](#criteria)
@@ -46,14 +47,13 @@ empowering _learning_ above all.
 ----------
 
 # How does it work
-The core process of the Playground is funding adventures. Each learner on an
-adventure defines it's subject and structure, what they're learning and how.
-Funds are distributed to learners over a 6 week period to enable
-experimentation, creation, and novelty.
+The Playground funds adventures. Each learner on an adventure defines it's
+subject and structure, what they're learning and how. Funds are distributed to
+learners over a 6 week period to enable experimentation, creation, and novelty.
 
 Each adventure is defined by a document in [/adventures](/adventures).
 
-## 1. Propose an Adventure
+## Step 1. Propose an Adventure
 Anyone can propose an adventure by opening a PR adding an adventure
 document.
 
@@ -93,7 +93,7 @@ If you're looking for some inspiration for your proposal check out some
 proposals](https://gitlab.com/fathom/playground/issues?label_name%5B%5D=proposal)
 or [funded adventures](/adventures)
 
-## 2. Reviewing and funding
+## Step 2. Reviewing and funding
 Once you create a proposal, it's public. Others can comment on it, copy it, or
 suggest changes. You can mark your proposal as WIP if you would like for
 it to be public but not yet reviewed.
@@ -128,7 +128,7 @@ passed 2 ways:
 2. A reviewer can unanimously pass a proposal with a wildcard (each
 reviewer begins their term with 2)
 
-## 3. Funding and Adventuring
+## Step 3. Funding and Adventuring
 Once an adventure is accepted a smart-contract is instantiated in order
 to distribute funds to the learner.
 
@@ -151,9 +151,7 @@ Improvement Proposals. Anyone can create one by opening an
 After discussion a PlIP should result in an MR which can change any
 part of the Playground, including this document. 
 
-PlIPs can only be merged in by [Dictator](#dictator) who fills thie role
-for a fixed term. 
-
+PlIPs can only be merged in by the [Dictator](#dictator).
 
 # Appendix
 
