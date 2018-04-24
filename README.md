@@ -149,6 +149,17 @@ Once you're adventure actually begins, what it looks like is entirely how you
 defined it. This is the most exciting part. You're a part of this community,
 talking to other adventurers, creating the educational systems of the future.
 
+## Step 4. Get Credentials
+
+Communicating your experience to others is an important part of learning. But
+the Playground isn't a central authority that can issue credentials to you,
+we're a community. There are no compulsory assessments. 
+
+Instead credentials work like everything else in the playground, they're defined
+by you. You can use the [fathom-protocol](https://fathom.network) to participate
+in a community consensus process to create and then earn credentials, whenever
+you think they are useful to you and your adventure.
+
 # Change and Governance
 The playground, this community and the systems that support it, is
 intended to grow and change, and so needs a governance model.
