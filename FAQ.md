@@ -1,4 +1,4 @@
-# Frequentyly Asked Questions
+# Frequently Asked Questions
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
@@ -15,15 +15,25 @@ to coordinate and come to consensus on how the system should function.
 
 Some examples of decentralized systems: 
 
-- Blockchain systems like Bitcoin and Ethereum
-- Git, a distributed version control system
+- Blockchain systems like [Bitcoin](https://bitcoin.org) and
+  [Ethereum](https://bitcoin.org/bitcoin.pdf)
+- [Git](https://git-scm.com/), a distributed version control system
 - [IPFS](https://ipfs.io)
-- [Secure ScuttleButt](https://ssbc.github.io/secure-scuttlebutt/)
+- [Secure ScuttleButt](https://scuttlebutt.nz)
 
 #### Who can be a learner?
 Anyone! The playground is open to people of all interests, skill-levels and
 backgrounds. What's important is a drive to learn, and the ability to think
 critically about your own learning and others'.
+
+#### How technical do I (and adventures) have to be?
+Not at all! This a huge conceptual space stretching from fields traditionally
+considered "humanties" all the way to "hard sciences".
+
+#### Do we get certificates for completing adventures?
+The Playground itself does not issue any credentials, but you can use
+[Fathom](https://fathom.network), a decentralized system for creating
+credentials via community consensus.
 
 #### What can I do?
 Anything! Well, almost. Your adventure has to be related to [decentralized

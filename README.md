@@ -39,7 +39,7 @@ towards the goals that matter to them.
 
 **This is a community to explore this future**
 
-The focus is on decentralized systems. They give us powerful tools and are
+Our focus is on decentralized systems. They give us powerful tools and are
 driving a revolution in digital infrastructure .
 
 The playground challenges you to envision your ideal learning environment build
@@ -50,8 +50,8 @@ community empowering learning above all.
 
 # How does it work?
 The Playground funds adventures. Each learner on an adventure defines its
-subject and structure, what they're learning and how. Funds are distributed to
-learners over a 6 week period to enable experimentation, creation, and .
+subject and structure, what they're learning and how. $5000 is distributed to
+learners over a 6 week period in ETH and DAI, to enable experimentation and creation.
 
 Each adventure is documented in [/adventures](/adventures).
 
@@ -60,7 +60,7 @@ Anyone can propose an adventure by opening a [Pull
 Request](https://github.com/jaredpereira/playground/new/master/adventures) to
 add an adventure document.
 
-Adventures can be anything to learn about decentralized systems. Individual
+Adventures can be around decentralized systems and learning. Individual
 explorations of a niche subject, original research, study groups, or any other
 scenario you can imagine. For a proposal you need to decide how best to describe
 _your_ adventure.
@@ -101,15 +101,13 @@ or [funded adventures](/adventures)
 
 ## Step 2. Get your proposal reviewed
 Once you create a proposal, it's public. Others can comment on it, fork it, or
-suggest changes. You can mark your proposal as WIP if you would like for
-it to be public but not yet reviewed.
+suggest changes. You can mark your proposal as Work-In-Progress if you would
+like for it to be public but not yet reviewed.
 
 When you're ready your PR will be assigned a reviewer to evaluate your proposal.
+They can ask questions or provide suggestions and
+feedback, before making a decision.
 
-In an interactive process reviewers can ask questions or
-provide suggestions and feedback, before making a decision. 
-
- You can see the current reviewers [here](#reviewers).
 ### Criteria
 Adventures are judged on:
 
@@ -120,7 +118,7 @@ Adventures are judged on:
 These crtieria extend to all aspects of an adventure: subject,
 structure, community, and artifacts.
 
-### Outcomes and Decision Making
+### Decision Making
 A reviewer can either close a proposal, if they think it's not valuable
 to fund, or they can escalate it.
 
@@ -131,18 +129,20 @@ passed in one of two ways:
 2. A single reviewer can unanimously pass a proposal with a wildcard (each
 reviewer begins their term with 2)
 
+--------------
+
+You can see the current reviewers [here](#reviewers).
+
 ## Step 3. Get Funds and Embark on Your Adventure
 
-### Locked smart-contracts
+### Distribution via smart-contracts 
 Once your adventure is accepted a smart-contract is instantiated in order
 to distribute funds.
 
-The smart contract will allow you to withdraw funds at a fixed rate. It
-will also allow the [Dictator](#dictator) to freeze the
-funds indefintiely. These are the only two options.
-
-The latter will **only** be used if a participant stops actively working
-towards their adventure.
+The smart contract will allow you to withdraw funds at a fixed rate. It will
+also allow the [Dictator](#dictator) to freeze the funds indefintiely. This will
+**only** be used if a participant stops actively working towards their
+adventure.
 
 ### Learning and Adventuring
 Once you're adventure actually begins, what it looks like is entirely how you
@@ -156,7 +156,7 @@ intended to grow and change, and so needs a governance model.
 ## PLIPS
 The main mechanism for change in the Playground are PLIPs, Playground
 Improvement Proposals. Anyone can create one by opening an
-[issue](https://github.com/jaredpereira/playground/labels/PLIP).
+[issue](https://github.com/jaredpereira/playground/issues/new?template=PLIP.md).
 
 After discussion a PlIP should result in an PR which can only be merged in by
 the [Dictator](#dictator). However, PLIPS can change any part of the Playground,
@@ -166,23 +166,28 @@ including this rule.
 
 ## Roles
 ### Reviewers
+
+Reviewers select adventures and new reviewers. Anyone can become a reviewer by
+opening a [nomination
+issue](https://github.com/jaredpereira/playground/issues/new?template=reviewerNomination.md).
+Each reviewer operates for a fixed term, and new reviewers are added via
+majority consensus.
+
 | Name          | Term Start | Wildcards |
 |---------------|------------|-----------|
 | Jared Pereira | 2018/04/06 | 2         |
 |               |            |           |
 
-Anyone can become a reviewer by opening a [nomination
-issue](https://github.com/jaredpereira/playground/labels/reviewer).
-Each reviewer operates for a fixed term, and new reviewers are added via
-majority consensus.
 
 ### Dictator
+
+The dictator controls funds and passes PLIPS. They operates for a fixed term and
+select their successor. This should change.
 
 | Name          | Term Start | Term End   |
 |---------------|------------|------------|
 | Jared Pereira | 2018/04/05 | 2018/08/01 |
 
-A dictator operates for a fixed term and selects their successor. This should change.
 
 ### Funds
 | Funder | Date       | Amount |
