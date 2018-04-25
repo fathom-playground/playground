@@ -60,17 +60,17 @@ Anyone can propose an adventure by opening a [Pull
 Request](https://github.com/jaredpereira/playground/new/master/adventures) to
 add an adventure document.
 
-Adventures can be around decentralized systems and learning. Individual
-explorations of a niche subject, original research, study groups, or any other
-scenario you can imagine. For a proposal you need to decide how best to describe
-_your_ adventure.
+Adventures can be anything around decentralized systems and learning. They could
+consist of explorations of a niche subject, original research, study groups, or
+any other scenario you can imagine. For a proposal you need to decide how best
+to describe _your_ adventure.
 
 There are some general elements that your proposal should cover that others will
 judge, connect to, and build on:
 
 ### A Goal
 Every adventure is a journey towards knowledge. What do you want to learn about
-decentralized systems? What interests excites or inpsires you? To coordinate
+decentralized systems? What interests excites or inspires you? To coordinate
 around your adventure the playground community needs to understand what it is
 you're setting out to learn.
 
@@ -104,7 +104,7 @@ Once you create a proposal, it's public. Others can comment on it, fork it, or
 suggest changes. You can mark your proposal as Work-In-Progress if you would
 like for it to be public but not yet reviewed.
 
-When you're ready your PR will be assigned a reviewer to evaluate your proposal.
+When you're ready your PR will be assigned a [reviewer](#reviewers) to evaluate your proposal.
 They can ask questions or provide suggestions and
 feedback, before making a decision.
 
@@ -115,7 +115,7 @@ Adventures are judged on:
 - How they engage with existing adventures and the broader community
 - Whether they create knowledge, or support the creation of knowledge
 
-These crtieria extend to all aspects of an adventure: subject,
+These criteria extend to all aspects of an adventure: subject,
 structure, community, and artifacts.
 
 ### Decision Making
@@ -129,6 +129,9 @@ passed in one of two ways:
 2. A single reviewer can unanimously pass a proposal with a wildcard (each
 reviewer begins their term with 2)
 
+Even if you're adventure proposal is rejected, you can iterate on it and apply
+again at any time.
+
 --------------
 
 You can see the current reviewers [here](#reviewers).
@@ -140,7 +143,7 @@ Once your adventure is accepted a smart-contract is instantiated in order
 to distribute funds.
 
 The smart contract will allow you to withdraw funds at a fixed rate. It will
-also allow the [Dictator](#dictator) to freeze the funds indefintiely. This will
+also allow the [Dictator](#dictator) to freeze the funds indefinitely. This will
 **only** be used if a participant stops actively working towards their
 adventure.
 
@@ -151,9 +154,10 @@ talking to other adventurers, creating the educational systems of the future.
 
 ## Step 4. Get Credentials
 
-Communicating your experience to others is an important part of learning. But
-the Playground isn't a central authority that can issue credentials to you,
-we're a community. There are no compulsory assessments. 
+It's valuable to be able to communicate the experience and impact of your
+adventure outside of the playground itself. You should be able to take it and
+use it to open new possibilities. However, the Playground isn't a central authority
+that can issue credentials to you, we're a community.
 
 Instead credentials work like everything else in the playground, they're defined
 by you. You can use the [fathom-protocol](https://fathom.network) to participate
@@ -193,7 +197,9 @@ majority consensus.
 ### Dictator
 
 The dictator controls funds and passes PLIPS. They operates for a fixed term and
-select their successor. This should change.
+select their successor. The dictator model is a short term solution the
+playground to explore and iterate. It should be replaced by a more robust
+governance system as soon as possible.
 
 | Name          | Term Start | Term End   |
 |---------------|------------|------------|
