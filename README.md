@@ -211,3 +211,6 @@ governance system as soon as possible.
 |--------|------------|--------|
 | Test   | 2018-04-06 | $1000  |
 |        |            |        |
+
+If you're interested in funding the playground please reach out to
+`jared.pereira(at)consensys.net`
