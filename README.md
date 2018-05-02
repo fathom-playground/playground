@@ -1,3 +1,5 @@
+** THE PLAYGROUND IS NOT LIVE, THIS IS BEING WORKED ON**
+
 # The Playground
 This is a distributed learning community around decentralized systems. We're
 funding 6-week long learning adventures to create knowledge and explore the
