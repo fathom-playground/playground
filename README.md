@@ -57,6 +57,12 @@ learners over a 6 week period in ETH and DAI, to enable experimentation and crea
 
 Each adventure is documented in [/adventures](/adventures).
 
+If you're looking for some inspiration for your proposal check out some
+[ideas](https://github.com/jaredpereira/playground/labels/idea),
+[other
+proposals](https://github.com/jaredpereira/playground/labels/proposal)
+or [funded adventures](/adventures)
+
 ## Step 1. Propose an Adventure
 Anyone can propose an adventure by opening a [Pull
 Request](https://github.com/jaredpereira/playground/new/master/adventures) to
@@ -95,11 +101,6 @@ all.
 
 -------------------
 
-If you're looking for some inspiration for your proposal check out some
-[ideas](https://github.com/jaredpereira/playground/labels/idea),
-[other
-proposals](https://github.com/jaredpereira/playground/labels/proposal)
-or [funded adventures](/adventures)
 
 ## Step 2. Get your proposal reviewed
 Once you create a proposal, it's public. Others can comment on it, fork it, or
