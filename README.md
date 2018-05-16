@@ -10,23 +10,26 @@ future of learning organizations.
 
 - [The Playground](#the-playground)
     - [Motivation and Vision](#motivation-and-vision)
-- [How does it work](#how-does-it-work)
-    - [1. Propose an Adventure](#1-propose-an-adventure)
+- [How does it work?](#how-does-it-work)
+    - [Step 1. Propose an Adventure](#step-1-propose-an-adventure)
         - [A Goal](#a-goal)
         - [Structures](#structures)
         - [Community](#community)
         - [Artifacts and Outcomes](#artifacts-and-outcomes)
-    - [2. Reviewing and funding](#2-reviewing-and-funding)
+    - [Step 2. Get your proposal reviewed](#step-2-get-your-proposal-reviewed)
         - [Criteria](#criteria)
-        - [Outcomes and Decision Making](#outcomes-and-decision-making)
-    - [3. Funding and Adventuring](#3-funding-and-adventuring)
+        - [Decision Making](#decision-making)
+    - [Step 3. Get Funds and Embark on Your Adventure](#step-3-get-funds-and-embark-on-your-adventure)
+        - [Distribution via smart-contracts](#distribution-via-smart-contracts)
+        - [Learning and Adventuring](#learning-and-adventuring)
+    - [Step 4. Get Credentials](#step-4-get-credentials)
 - [Change and Governance](#change-and-governance)
-    - [PlIPS](#plips)
+    - [PLIPS](#plips)
 - [Appendix](#appendix)
     - [Roles](#roles)
         - [Reviewers](#reviewers)
         - [Dictator](#dictator)
-        - [Funders](#funders)
+        - [Funds](#funds)
 
 <!-- markdown-toc end -->
 
@@ -53,7 +56,8 @@ community empowering learning above all.
 # How does it work?
 The Playground funds adventures. Each learner on an adventure defines its
 subject and structure, what they're learning and how. $5000 is distributed to
-learners over a 6 week period in ETH and DAI, to enable experimentation and creation.
+learners over a 6 week period in ETH and DAI, to enable experimentation and
+creation.
 
 Each adventure is documented in [/adventures](/adventures).
 
