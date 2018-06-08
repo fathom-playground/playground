@@ -57,7 +57,7 @@ community empowering learning above all.
 The Playground funds adventures. Each learner on an adventure defines its
 subject and structure, what they're learning and how. $5000 is distributed to
 learners over a 6 week period in ETH and DAI, to enable experimentation and
-creation.
+creation. Each learner can use credentials created through the [fathom protocol](https://fathom.network)
 
 Each adventure is documented in [/adventures](/adventures).
 
@@ -84,7 +84,8 @@ judge, connect to, and build on:
 Every adventure is a journey towards knowledge. What do you want to learn about
 decentralized systems? What interests excites or inspires you? To coordinate
 around your adventure the playground community needs to understand what it is
-you're setting out to learn.
+you're setting out to learn. These can be captured as concepts, or subjects or
+credentials.
 
 ### Structures
 _How_ are you going to learn? What are the systems and processes that will best
@@ -102,8 +103,6 @@ Finally, adventures result in artifacts. Producing something concrete is a
 powerful anchor for learning. It can be anything from software created to a log
 of your experiences. These artifacts should be openly-licensed and accessible to
 all.
-
--------------------
 
 
 ## Step 2. Get your proposal reviewed
@@ -161,15 +160,20 @@ talking to other adventurers, creating the educational systems of the future.
 
 ## Step 4. Get Credentials
 
-It's valuable to be able to communicate the experience and impact of your
-adventure outside of the playground itself. You should be able to take it and
-use it to open new possibilities. However, the Playground isn't a central authority
-that can issue credentials to you, we're a community.
+Credentials are a powerful tool within the Playground. We use the
+[fathom-protocol](https://fathom.network) to collaboratively create and issue
+credentials in any concept or subject that we need to.
 
-Instead credentials work like everything else in the playground, they're defined
-by you. You can use the [fathom-protocol](https://fathom.network) to participate
-in a community consensus process to create and then earn credentials, whenever
-you think they are useful to you and your adventure.
+You can use these credentials both within the playground, to shape and connect
+your learning experience, and outside of it, to communicate that experience to
+others.
+
+### The Fathom Network
+
+The Playground and the Fathom Network are tied together. You are the first users
+of this protocol. Creating new concepts, and coming to consensus on what they
+mean and how they can be assessed is integral to leveraging credentials in your
+adventures.
 
 # Change and Governance
 The playground, this community and the systems that support it, is
