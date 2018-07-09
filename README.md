@@ -1,36 +1,33 @@
-** THE PLAYGROUND IS NOT LIVE, THIS IS BEING WORKED ON**
-
 # The Playground
-This is a distributed learning community around decentralized systems. We're
-funding 6-week long learning adventures to create knowledge and explore the
-future of learning organizations.
+This is a distributed learning community creating new learning infrastructure.
+We're embarking on 6-week long learning adventures to create knowledge and
+explore the future of learning.
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
 - [The Playground](#the-playground)
     - [Motivation and Vision](#motivation-and-vision)
-- [How does it work?](#how-does-it-work)
+- [What's a Learning Adventure?](#whats-a-learning-adventure)
     - [Step 1. Propose an Adventure](#step-1-propose-an-adventure)
         - [A Goal](#a-goal)
         - [Structures](#structures)
         - [Community](#community)
         - [Artifacts and Outcomes](#artifacts-and-outcomes)
-    - [Step 2. Get your proposal reviewed](#step-2-get-your-proposal-reviewed)
+    - [Step 2. Get your proposal merged in](#step-2-get-your-proposal-merged-in)
         - [Criteria](#criteria)
-        - [Decision Making](#decision-making)
-    - [Step 3. Get Funds and Embark on Your Adventure](#step-3-get-funds-and-embark-on-your-adventure)
-        - [Distribution via smart-contracts](#distribution-via-smart-contracts)
-        - [Learning and Adventuring](#learning-and-adventuring)
+    - [Step 3. Embark on Your Adventure](#step-3-embark-on-your-adventure)
     - [Step 4. Get Credentials](#step-4-get-credentials)
         - [The Fathom Network](#the-fathom-network)
-- [Change and Governance](#change-and-governance)
-    - [PLIPS](#plips)
-- [Appendix](#appendix)
-    - [Roles](#roles)
-        - [Reviewers](#reviewers)
-        - [Dictator](#dictator)
-        - [Funds](#funds)
+- [Funded Adventures](#funded-adventures)
+    - [Sponsoring Adventure Grants](#sponsoring-adventure-grants)
+    - [Current Grants](#current-grants)
+        - [Adventures-In-Residence:](#adventures-in-residence)
+- [Growing the Playground](#growing-the-playground)
+    - [Questions](#questions)
+        - [Playground Parameters and Structures](#playground-parameters-and-structures)
+        - [Fathom](#fathom)
+    - [Getting Data](#getting-data)
 
 <!-- markdown-toc end -->
 
@@ -45,189 +42,186 @@ towards the goals that matter to them.
 
 **This is a community to explore this future**
 
-Our focus is on decentralized systems. They give us powerful tools and are
-driving a revolution in digital infrastructure .
-
-The playground challenges you to envision your ideal learning environment build
+The Playground challenges you to envision your ideal learning environment, build
 it, and connect it to others. By enabling these connections we're creating a
-community empowering learning above all. 
+community empowering learning above all, and spawing novel learning structures
+that will scale and propagate throughout society. 
 
 ----------
 
-# How does it work?
-The Playground funds adventures. Each learner on an adventure defines its
-subject and structure, what they're learning and how. $5000 is distributed to
-learners over a 6 week period in ETH and DAI, to enable experimentation and
-creation. Each learner can use credentials created through the [fathom protocol](https://fathom.network)
+# What's a Learning Adventure?
 
-Each adventure is documented in [/adventures](/adventures).
+The Playground is composed of **learning adventures**. These are 6-week long journeys
+exploring the future of learning. Each learner on an adventure defines its goal
+and structure, what they're learning and how.
 
-If you're looking for some inspiration for your proposal check out some
-[ideas](https://github.com/jaredpereira/playground/labels/idea),
-[other
-proposals](https://github.com/jaredpereira/playground/labels/proposal)
-or [funded adventures](/adventures)
+An adventure could be:
+
+- original research into learning and public transport
+- a study group around a textbook with a protocol to federate with
+other study groups
+- an exploration of a niche subject with a new research system
+- or anything else you can imagine. 
+
+Through its goal _or_ structure it's exploring a future of learning.
+
+Adventures are documented in [/adventures](/adventures).
+
+Anyone and everyone is welcome to embark on their own adventure. This community
+is here to support you, hold you accountable, and foster connections.
+
+If you're looking for some inspiration check out some
+[ideas](https://github.com/jaredpereira/playground/labels/idea), and
+[adventures](/adventures).
 
 ## Step 1. Propose an Adventure
-Anyone can propose an adventure by opening a [Pull
-Request](https://github.com/jaredpereira/playground/new/master/adventures) to
-add an adventure document.
 
-Adventures can be anything around decentralized systems and learning. They could
-consist of explorations of a niche subject, original research, study groups, or
-any other scenario you can imagine. For a proposal you need to decide how best
-to describe _your_ adventure.
+Your adventures can be anything exploring learning! Hence, for a proposal you
+need to decide how best to describe _your_ adventure.
 
-There are some general elements that your proposal should cover that others will
-judge, connect to, and build on:
+Here are some things you might need to explain:
 
-### A Goal
-Every adventure is a journey towards knowledge. What do you want to learn about
-decentralized systems? What interests excites or inspires you? To coordinate
-around your adventure the playground community needs to understand what it is
-you're setting out to learn. These are the concepts or ideas your adventure is
-exploring. 
+### A Goal:
+Every adventure is a journey towards knowledge. What do you want to learn about?
+What interests, excites or inspires you? To coordinate around your adventure the
+playground community needs to understand what you're setting out to learn.
 
-### Structures
+### Structures:
 _How_ are you going to learn? What are the systems and processes that will best
-create knowledge for you? What are the resources they will connect to? These can
+create knowledge for you? What are the resources you will use? These can
 be rigid or open-ended, but should be clearly defined.
 
-### Community
+### Community:
 An adventure does not exist in isolation. It should build upon, connect
 to, support, and involve other adventures and the broader community. Who are you
 working with, who are the people who will support you? How will your learning
 connect to others?
 
-### Artifacts and Outcomes
+### Artifacts and Outcomes:
 Finally, adventures result in artifacts. Producing something concrete is a
 powerful anchor for learning. It can be anything from software created to a log
 of your experiences. These artifacts should be openly-licensed and accessible to
 all.
 
+**Once you've figured this all out you can submit your adventure by opening a [Merge
+Request](https://gitlab.com/fathom/fathom-playground/playground/merge_requests/new)
+to add an adventure document.**
 
-## Step 2. Get your proposal reviewed
+## Step 2. Get your proposal merged in
 Once you create a proposal, it's public. Others can comment on it, fork it, or
-suggest changes. You can mark your proposal as Work-In-Progress if you would
-like for it to be public but not yet reviewed.
+suggest changes. You can mark your proposal as Work-In-Progress (or WIP) if you would
+like for it to be public but not yet merged in.
 
-When you're ready your PR will be assigned a [reviewer](#reviewers) to evaluate your proposal.
-They can ask questions or provide suggestions and
-feedback, before making a decision.
+### Criteria:
+We're not here to pass value judgements. It's up to you to decide what you think
+is important to explore. Instead, the community validates the following:
 
-### Criteria
-Adventures are judged on:
+- Is it a learning adventure?
+- Is your adventure well defined and explicit?
+- Is it realistic? (Are you trying to do something impossible or unreasonable?)
+- Is it novel? (or have you connected it to others who are doing something similar?)
+- Are you committed?
 
-- How well defined they are
-- How they engage with existing adventures and the broader community
-- Whether they create knowledge, or support the creation of knowledge
+**Anyone who has completed an adventure in the last 2 months can verify your
+proposal and merge it in.**
 
-These criteria extend to all aspects of an adventure: subject,
-structure, community, and artifacts.
+## Step 3. Embark on Your Adventure
 
-### Decision Making
-A reviewer can either close a proposal, if they think it's not valuable
-to fund, or they can escalate it.
+Once your adventure actually begins, what it looks like is entirely how you
+define it. This is the most exciting part.
 
-Once escalated all reviewers read the proposal. A proposal can then be
-passed in one of two ways: 
+### Good Things To Do:
 
-1. Majority consensus from all reviewers
-2. A single reviewer can unanimously pass a proposal with a wildcard (each
-reviewer begins their term with 2)
+- Keep a public log of your learning experience
+- Talk to other people on similar adventures!
+- Set sub-goals for yourself
+- Find some people to hold you accountable and check in on you
+- Find some newer adventurers and support them!
 
-Even if you're adventure proposal is rejected, you can iterate on it and apply
-again at any time.
-
---------------
-
-You can see the current reviewers [here](#reviewers).
-
-## Step 3. Get Funds and Embark on Your Adventure
-
-### Distribution via smart-contracts 
-Once your adventure is accepted a smart-contract is instantiated in order
-to distribute funds.
-
-The smart contract will allow you to withdraw funds at a fixed rate. It will
-also allow the [Dictator](#dictator) to freeze the funds indefinitely. This will
-**only** be used if a participant stops actively working towards their
-adventure.
-
-### Learning and Adventuring
-Once you're adventure actually begins, what it looks like is entirely how you
-defined it. This is the most exciting part. You're a part of this community,
-talking to other adventurers, creating the educational systems of the future.
+**You're a part of this community, talking to other adventurers, creating the
+educational systems of the future.**
 
 ## Step 4. Get Credentials
 
-Credentials are a powerful tool within the Playground. We use the
+Credentials are a powerful tool within The Playground. We use the
 [fathom-protocol](https://fathom.network) to collaboratively create and issue
 credentials in any concept or subject that we need to.
 
-You can use these credentials both within the playground, to shape and connect
+Other adventurers who have gone before you in similar fields act as assessors of
+your experience, and once you're assessed you can do the same for those who come after.
+These are supportive, growing credentials defined by community consensus, not
+by a central authority.
+
+**You can use these credentials both within The Playground, to shape and connect
 your learning experience, and outside of it, to communicate that experience to
-others.
+others.**
 
-### The Fathom Network
+### The Fathom Network:
 
-The Playground and the Fathom Network are tied together. You are the first users
+The Playground and the Fathom Network are tied together. We are the first users
 of this protocol. Creating new concepts, and coming to consensus on what they
-mean and how they can be assessed is integral to leveraging credentials in your
+mean and how they can be assessed, is integral to leveraging credentials in your
 adventures.
 
-# Change and Governance
-The playground, this community and the systems that support it, is
-intended to grow and change, and so needs a governance model.
+# Funded Adventures
 
-## PLIPS
-The main mechanism for change in the Playground are PLIPs, Playground
-Improvement Proposals. Anyone can create one by opening an
-[issue](https://github.com/jaredpereira/playground/issues/new?template=PLIP.md).
+Anyone can start an adventure of their own volition and using whatever resources
+they have. 
 
-After discussion a PlIP should result in an PR which can only be merged in by
-the [Dictator](#dictator). However, PLIPS can change any part of the Playground,
-including this rule.
+To empower and support ambitious adventures, we are aiming to offer a series of
+grants to adventurers. Each of these will have their own application process and
+criteria behind them to encourage a diversity of directions. While The
+Playground itself welcomes all adventures in any field or direction (as long as
+it's structured for learning), grants can be constrained to specific domains or
+types.
 
-# Appendix
+## Sponsoring Adventure Grants
 
-## Roles
-### Reviewers
+We're looking for individuals and insitutions to sponsor adventures. If you're
+in need of better learning systems in the world (aren't we all) or want to see
+specific kinds of adventures run, please reach out, either by creating an issue
+in this repository or sending an email to `contact(at)fathom.network`. 
 
-Reviewers select adventures and new reviewers. Anyone can become a reviewer by
-opening a [nomination
-issue](https://github.com/jaredpereira/playground/issues/new?template=reviewerNomination.md).
-Each reviewer operates for a fixed term, and new reviewers are added via
-majority consensus.
+## Current Grants
+### Adventures-In-Residence:
+This is a grants program offering $5000 for pioneering adventures in The
+Playground. If you're interested, reach out with your adventure proposal to `contact(at)fathom.network`.
 
-| Name          | Term Start | Wildcards |
-|---------------|------------|-----------|
-| Jared Pereira | 2018/04/06 | 2         |
-|               |            |           |
+# Growing The Playground
+Right now The Playground is small. As we spawn and run adventures we want to
+reflect, iterate, and transform The Playground into a solid foundation.
 
+This document is the source of truth for the playground community. Anyone can
+propose changes to it by opening up a Merge Request. As such, we hope that it
+will develop to reflect the values and processes that drive our community.
 
-### Dictator
+## Questions
+We have some questions we want to answer to inform this process. These are
+meant to guide changes to The Playground and the tools it uses.
 
-The dictator controls funds and passes PLIPS. They operates for a fixed term and
-select their successor. The dictator model is a short term solution the
-playground to explore and iterate. It should be replaced by a more robust
-governance system as soon as possible.
+### Questions about Playground Parameters and Structures:
+- Are the constraints around adventures optimal?
+- Are the tools and systems we're using to collaborate working towards our goals?
+- Is our review process effective and fair, both for grants and for regular adventures?
+- Is the playground process reproducible/forkable/scalable?
+- What kinds of adventures are succeeding/failing?
 
-| Name          | Term Start | Term End   |
-|---------------|------------|------------|
-| Jared Pereira | 2018/04/05 | 2018/08/01 |
-
-
-### Funds
-| Funder | Date       | Amount |
-|--------|------------|--------|
-| Test   | 2018-04-06 | $1000  |
-|        |            |        |
-
-If you're interested in funding the playground please reach out to
-`jared.pereira(at)consensys.net`
-
-
-NOTES:
-- Make clear adventureres should participate in the assessment processe
-- Stress how people can use fathom more
+### Questions about Fathom:
+While the fathom protocol is not core to The Playground, it is a tool
+we are using and building on. As such, we want to explore how it's working and
+how we can improve it.
+- What tools and systems are neccessary for interacting with the fathom protocol?
+- What are the use-cases for fathom credentials in The Playground?
+- Are we able to come to consensus on assessments?
+- Are the parameters of the Fathom Network appropriate for our use, including the following?:
+  - Consensus Distance
+  - Minimum Size
+  - Inflation Rate
+  - Challenge Periods
+  
+## Getting Data
+All adventures and discussions in this repo are public, and so are an excellent
+source of data to answer these questions. However, we also want to capture more
+in-depth data in the form of interviews with adventurers. These will be publicly
+compiled and shared in their own repository (or could even become an adventure of
+their own).
