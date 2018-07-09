@@ -19,6 +19,15 @@ explore the future of learning.
     - [Step 3. Embark on Your Adventure](#step-3-embark-on-your-adventure)
     - [Step 4. Get Credentials](#step-4-get-credentials)
         - [The Fathom Network](#the-fathom-network)
+- [Funded Adventures](#funded-adventures)
+    - [Sponsoring Adventure Grants](#sponsoring-adventure-grants)
+    - [Current Grants](#current-grants)
+        - [Adventures-In-Residence:](#adventures-in-residence)
+- [Growing the Playground](#growing-the-playground)
+    - [Questions](#questions)
+        - [Playground Parameters and Structures](#playground-parameters-and-structures)
+        - [Fathom](#fathom)
+    - [Getting Data](#getting-data)
 
 <!-- markdown-toc end -->
 
