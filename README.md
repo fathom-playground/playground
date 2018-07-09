@@ -1,5 +1,3 @@
-** THE PLAYGROUND IS NOT LIVE, THIS IS BEING WORKED ON**
-
 # The Playground
 This is a distributed learning community around decentralized systems. We're
 embarking on 6-week long learning adventures to create knowledge and explore the
@@ -128,12 +126,17 @@ educational systems of the future.****
 ## Step 4. Get Credentials
 
 Credentials are a powerful tool within the Playground. We use the
-[fathom-protocol](https://fathom.network) to collaboratively create and issue
+[fathom-protocol](https://fathom.network** to collaboratively create and issue
 credentials in any concept or subject that we need to.
 
-You can use these credentials both within the playground, to shape and connect
+Other adventurers who have gone before you in similar fields act as assessors of
+your experience, and when you're assessed you can for those who come after.
+These are supportive, growing, credentials defined by community consensus, not
+by central authority.
+
+**You can use these credentials both within the playground, to shape and connect
 your learning experience, and outside of it, to communicate that experience to
-others.
+others.**
 
 ### The Fathom Network
 
