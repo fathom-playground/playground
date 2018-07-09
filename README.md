@@ -141,3 +141,27 @@ The Playground and the Fathom Network are tied together. You are the first users
 of this protocol. Creating new concepts, and coming to consensus on what they
 mean and how they can be assessed is integral to leveraging credentials in your
 adventures.
+
+# Funded Adventures
+
+Anyone can start an adventure of their own volition and using whatever resources
+they have. 
+
+To empower and support ambitious adventures we are aiming to offer a series of
+grants to adventurers. Each of these will have their own application process and
+criteria behind them to encourage a diversity of directions. While the
+playground itself welcomes all adventures in any field or direction (as long as
+it's structured for learning) grants can be constrained to specific domains or
+types.
+
+## Sponsoring Adventure Grants
+
+We're looking for individuals and insitutions to sponsor adventures. If you're
+in need of better learning systems in the world (aren't we all) or want to see
+specific kinds of adventures run, please reach out, either by creating an issue
+in this repository or sending an email to `contact(at)fathom.network`. 
+
+## Current Grants
+### Adventures-In-Residence:
+This is a grants program offering $5000 for adventures pioneering the
+playground. If you're interested, reach out with your adventure proposal to `contact(at)fathom.network`.
