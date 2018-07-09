@@ -168,3 +168,39 @@ in this repository or sending an email to `contact(at)fathom.network`.
 ### Adventures-In-Residence:
 This is a grants program offering $5000 for adventures pioneering the
 playground. If you're interested, reach out with your adventure proposal to `contact(at)fathom.network`.
+
+# Growing the Playground
+Right now the playground is small. As we spawn and run adventures we want to
+reflect, iterate, and transform the playground into a solid foundation.
+
+This document is the source of truth for the playground community. Anyone can
+propose changes to it by opening up a Merge Request. As such we hope that it
+will develop to reflect the values and processes that drive our community.
+
+## Questions
+We have some questions we want to answer to inform this process. These are
+meant to guide changes to the playground and the tools it uses.
+
+### Playground Parameters and Structures
+- Are the constraints around adventures optimal?
+- Are the tools and systems we're using to collaborate working towards our goals?
+- Is our review process effective and fair both for grants and regular adventures?
+- Is the playground process reproducible/forkable/scalable?
+- What kinds of adventures are succeeding/failing?
+
+### Fathom
+- What tools and systems are neccessary for interacting with the fathom protocol
+- What are the most immediate and natural use-cases for decentralized
+  credentials in a learning community
+- Are individuals able to come to consensus on assessments
+- Are the parameters of the Fathom Network appropriate:
+  - Consensus Distance
+  - Minimum size
+  - Inflation rate
+  - Challenge Periods
+  
+## Getting Data
+All adventures and discussions in this repo are public and so are an excellent
+source of data. However we also want to captures more in depth data in the form
+of interviews with adventurers. These will be publicly compiled and shared in
+their own repository (or might even be an adventure of their own).
