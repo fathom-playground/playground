@@ -1,7 +1,7 @@
 # The Playground
-This is a distributed learning community around decentralized systems. We're
-embarking on 6-week long learning adventures to create knowledge and explore the
-future of learning.
+This is a distributed learning community creating new learning infrastructure.
+We're embarking on 6-week long learning adventures to create knowledge and
+explore the future of learning.
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
@@ -35,7 +35,8 @@ towards the goals that matter to them.
 
 The playground challenges you to envision your ideal learning environment build
 it, and connect it to others. By enabling these connections we're creating a
-community empowering learning above all. 
+community empowering learning above all, and spawing novel learning structures
+that will scale and propagate throughout society. 
 
 ----------
 
