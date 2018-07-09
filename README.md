@@ -51,24 +51,24 @@ that will scale and propagate throughout society.
 
 # What's a Learning Adventure?
 
-The Playground is composed of **learing adventures**. These are 6-week long journeys
+The Playground is composed of **learning adventures**. These are 6-week long journeys
 exploring the future of learning. Each learner on an adventure defines its goal
 and structure, what they're learning and how.
 
-They can be:
+An adventure could be:
 
-- an exploration of a niche subject with a new research system
 - original research into learning and public transport
-- Running a study groups around a textbook with a protocol to federate with
+- a study group around a textbook with a protocol to federate with
 other study groups
+- an exploration of a niche subject with a new research system
 - or anything else you can imagine. 
 
-Through their goal _or_ structure, they are exploring a future of learning.
+Through its goal _or_ structure, it's are exploring a future of learning.
 
-Each adventure is documented in [/adventures](/adventures).
+Adventures are documented in [/adventures](/adventures).
 
 Anyone and everyone is welcome to embark on their own adventure. This community
-is here to support you, hold you accountable, and 
+is here to support you, hold you accountable, and foster connections.
 
 If you're looking for some inspiration check out some
 [ideas](https://github.com/jaredpereira/playground/labels/idea), and
@@ -84,12 +84,11 @@ Here are some things you might need to explain:
 ### A Goal
 Every adventure is a journey towards knowledge. What do you want to learn about?
 What interests excites or inspires you? To coordinate around your adventure the
-playground community needs to understand what it is you're setting out to learn.
-These are the concepts or ideas your adventure is exploring.
+playground community needs to understand what you're setting out to learn.
 
 ### Structures
 _How_ are you going to learn? What are the systems and processes that will best
-create knowledge for you? What are the resources they will connect to? These can
+create knowledge for you? What are the resources you will use? These can
 be rigid or open-ended, but should be clearly defined.
 
 ### Community
@@ -117,6 +116,7 @@ like for it to be public but not yet merged in.
 We're not here to pass value judgements. It's up to you to decide what you think
 it's important to explore. Instead the community validates:
 
+- Is it a learning adventure?
 - Is your adventure well defined and explicit?
 - Is it realistic? Are you trying to do something impossible or unreasonable?
 - Is it novel/have you connected it to others who are doing the same?
@@ -129,6 +129,14 @@ proposal and merge it in.**
 
 Once you're adventure actually begins, what it looks like is entirely how you
 defined it. This is the most exciting part. 
+
+### Good Things To Do:
+
+- Keep a public log of learning experience
+- Talk to other people on similar adventures!
+- Set sub-goals for yourself
+- Find some people to hold you accountable and check in on you
+- Find some newer adventurers and support them!
 
 **You're a part of this community, talking to other adventurers, creating the
 educational systems of the future.****
@@ -150,7 +158,7 @@ others.**
 
 ### The Fathom Network
 
-The Playground and the Fathom Network are tied together. You are the first users
+The Playground and the Fathom Network are tied together. We are the first users
 of this protocol. Creating new concepts, and coming to consensus on what they
 mean and how they can be assessed is integral to leveraging credentials in your
 adventures.
@@ -199,11 +207,13 @@ meant to guide changes to the playground and the tools it uses.
 - What kinds of adventures are succeeding/failing?
 
 ### Fathom
+While the fathom protocol is not core to the playground, it is a tool
+we are using and building on. As such we want to explore how it's working and
+how we can improve it
 - What tools and systems are neccessary for interacting with the fathom protocol
-- What are the most immediate and natural use-cases for decentralized
-  credentials in a learning community
-- Are individuals able to come to consensus on assessments
-- Are the parameters of the Fathom Network appropriate:
+- What are the use-cases for fathom credentials in the playground
+- Are we able to come to consensus on assessments?
+- Are the parameters of the Fathom Network appropriate for our use:
   - Consensus Distance
   - Minimum size
   - Inflation rate
@@ -211,6 +221,7 @@ meant to guide changes to the playground and the tools it uses.
   
 ## Getting Data
 All adventures and discussions in this repo are public and so are an excellent
-source of data. However we also want to captures more in depth data in the form
-of interviews with adventurers. These will be publicly compiled and shared in
-their own repository (or might even be an adventure of their own).
+source of data to answer these questions. However we also want to capture more
+in depth data in the form of interviews with adventurers. These will be publicly
+compiled and shared in their own repository (or might even be an adventure of
+their own).
