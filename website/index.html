@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Playground</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="playgroundfavicon.png">
+    <!-- Viewport for responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+
+  </head>
+  <body class="w-100 h-100 bg-light-orange pa4-ns pa2">
+
+
+
+    <div class="relative flex flex-wrap items-center w-100 min-vh-100 pa4-ns pa2">
+
+      <!-- Above the Fold -->
+      <div class="flex flex-wrap items-center align-start flex-column w-100 min-vh-100">
+        <div class="absolute abs-center flex flex-column items-center justify-center content-center w-100 h-100 ph4 b--deep-purple bw2 overflow-hidden bg-muted-purple pa2" style="height: 100%;background: linear-gradient(180deg, hsla(237, 88%, 20%, 1) 100%, #FAEDDF 180%);width: 100%;">
+          <div class="obj-title absolute w-auto move obj-title z-999">
+
+          </div>
+          <div class="relative flex flex-column content-center items-center  min-vh-100 w-100">
+            <div class="absolute abs-center flex flex-column w-100 h-100 light-orange content-around justify-around">
+              <div class="flex flex-row w-100 h-100 content-between">
+              <h1 class="mv0 ts-pink-tl" style="transform:skew(4deg, 2deg);">P</h1>
+              <h1 class="mv0 ts-pink-tr" style="transform:skew(-4deg, 8deg);">L</h1>
+              </div>
+              <div class="flex flex-row w-100 content-between">
+              <h1 class="mv0 ts-pink-bl" style="transform:skew(-14deg, -20deg);">A</h1>
+              <h1 class="mv0 ts-pink-br" style="transform:skew(200deg, 20deg);">Y</h1>
+              </div>
+
+            </div>
+            <img class="z-999 w4 flex" src="logo.png" />
+            <h2 class="f1-ns f2 light-orange z-999 fw4 tc lh-copy content-center items-center align-center">
+                Playground explores new futures for learning.
+            </h2>
+
+            </div>
+        </div>
+      </div>
+
+      </div>
+
+      <!-- Intro -->
+      <div class="flex flex-wrap items-center align-center flex-column w-100 min-vh-100">
+
+        <!--<h4 class="f-subheadline-ns f1 fw4 deep-purple z-999 lh-copy tc mw8">
+          Our education system was <span class="font-gta-b w-100 dib ">one-size-fits-all</span> and we broke it.
+        </h4>-->
+        <h4 class="f1-ns f2 deep-purple z-999 lh-copy tl mw7 ph3 ph0-ns">
+          Playground is a chill club open to anyone who thinks <span class="font-gta-eb">curiosity</span> is cool. We team up to explore new futures for learning, and we'd like you to join us.
+        </h4>
+
+
+        <div class="relative flex flex-column items-center w-80-ns w-100  deep-purple mt4">
+          <h4 class="f1-ns f2 deep-purple z-999 lh-copy tl ph3 ph0-ns">
+            What futures might we explore together?
+          </h4>
+          <div class="absolute flex items-center content-center h-100 w-100" style="top:0px;"
+          >
+          <img src="scribble.svg" />
+        </div>
+          <div class="flex flex-row-l flex-column f1 w-100  deep-purple ba">
+            <div class="relative flex flex-column w-50-l w-100 content-center f2 bn-l bb    deep-purple pa5-ns pv5 ph1">
+              <h3 class="f1 tc mv2">Tools</h3>
+              <h5 class="f3 tc mv2">For knowledge management</h5>
+            </div>
+            <div class="relative flex flex-column w-50-l w-100 content-center f2 bl-l bn  deep-purple pa5-ns pv5 ph1">
+              <h3 class="f1 tc mv2">Techniques</h3>
+              <h5 class="f3 tc mv2">For learning</h5>
+
+              <div class="obj-new-badge absolute flex items-center content-center w4-ns w3 h4-ns h3 bg-deep-purple light-orange br-100 animate-rotate">
+                <h4 class="f3-ns f5 mv0 font-gta-eb" style="transform:rotate(35deg);">
+                  NEW
+                </h4>
+              </div>
+
+            </div>
+          </div>
+          <div class="relative flex flex-column f1 w-100 deep-purple bl br ">
+            <div class="flex flex-column f2  w-100 content-center   deep-purple pa2-ns pv6-ns pv6 ph1">
+              <h3 class="f1 tc mv2 dn dib-ns">Infrastructures</h3>
+              <h3 class="f1 tc mv2 il dn-ns">Infra-</h3>
+              <h3 class="f1 tc mv2 il dn-ns">structures</h3>
+              <h5 class="f3 tc mv2">For learning communities</h5>
+            </div>
+          </div>
+          <div class="flex flex-row-l flex-column f1 w-100 deep-purple ba">
+            <div class="flex flex-column f2  w-70-l w-100 content-center deep-purple pa5-ns pv5 ph1 br-l bn">
+              <h3 class="f1 tc mv2">Systems</h3>
+              <h5 class="f3 tc mv2">For knowledge sharing</h5>
+            </div>
+            <div class="flex flex-column w-30-l w-100 content-center f2 deep-purple pa5-ns ph3-ns pv5 ph1 bt bn-l">
+              <h3 class="f1 tc mv2">Stories</h3>
+              <h5 class="f3 tc mv2">For sparking curiosity</h5>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="flex flex-column mt3 ph3 ph0-ns">
+
+
+        <h4 class="f1 deep-purple z-999 lh-copy-ns lh-title tc mw8  ">
+          So <span class="font-gta-eb">how</span> does it work?
+        </h4>
+        <h4 class="f2-ns f3 deep-purple z-999 lh-copy tl mw7 mt0 ">
+          We support Playground members in pursuing their own independent research & through collaborative projects, initiated by the community and ourselves.
+        </h4>
+        <h4 class="f2-ns f3 deep-purple z-999 lh-copy tl mw7 mt0 ">
+          Support comes in the form of critical discussions, community participation, funds, and access to tools.
+        </h4>
+        <h4 class="f2-ns f3 deep-purple z-999 lh-copy tl mw7 mt0 ">
+          Our <span class="font-gta-eb">Learning Adventure</span> program provides a consistent, simple structure to research these new futures.
+        </h4>
+      </div>
+
+        <div class="flex flex-column w-100 items-center content-center overflow-hidden mv5">
+          <div class="flex content-end relative">
+            <div class="obj-now absolute flex flex-row font-gta-b hot-pink o-50 f5 w-100" style="transform: skew(192deg, 6deg);">
+                <div class="flex flex-column mh4" style="transform: skew(85deg, -25deg);">
+                  <div class="slideshow-now-search-performance">
+                  <div class="flex">
+                    NOWNOWNOWNOWNOWNOWNOW
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+                    NOWNOWNOWNOWNOWNOWNOW
+
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+                    NOWNOWNOWNOWNOWNOWNOW
+
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+                  <div class="flex" style="">
+                    NOWNOWNOWNOWNOWNOWNOW
+
+                    NOWNOWNOWNOWNOWNOWNOW
+                  </div>
+
+            </div>
+
+
+          </div>
+            </div>
+            <h1 class="fw4 flex-ns dn color-none text-outline-deep-purple tc z-999 mv0">
+            N<span class="font-gta-eb">O</span>W
+            </h1>
+            <h2 class="f-now font-gta-b dn-ns flex color-none text-outline-deep-purple tc z-999 mv0">
+            NOW
+          </h2>
+          </div>
+
+
+        <div class="relative flex flex-wrap flex-column mv5 content-center align-center justify-center items-center w-100 mv overflow-hidden ph3 ph0-ns">
+
+        <h4 class="f1 deep-purple z-999 lh-copy-ns lh-title tc mw8  ">
+          Let's talk <span class="flex-l dil font-gta-eb f1-ns f2">Learning Adventures.</span>
+        </h4>
+        <h4 class="f2-ns f3 deep-purple z-999 lh-copy tl mw7 mt0 ">
+          They're short, self-directed projects exploring possible futures for online learning.
+        </h4>
+        <h4 class="f2-ns f3 deep-purple z-999 lh-copy tl mw7 mt0 ">
+          And we want to help <span class="font-gta-eb"> you</span> start one. It can be simple or complex, a solo or collaborative effort. A piece of original research. A web app or prototype. A study group. Or another scenario you imagine.
+        </h4>
+      </div>
+
+
+
+        <div class="relative flex flex-wrap flex-column content-start align-center justify-center items-center w-100 mv overflow-hidden ph3 ph0-ns">
+
+          <h4 class="f1 deep-purple z-999 lh-copy-ns lh-title tc mw8  ">
+            What can you <span class="font-gta-eb f1-ns f2">explore?</span>
+          </h4>
+          <h4 class="f2-ns f3 deep-purple z-999 lh-copy tl-ns tl mw7 mt0 mb3">
+            Anything relating to the future of learning. Not totally sure? Here's some inspiration  &#x2192;&#x2192;&#x2192;
+          </h4>
+
+          <div class="obj-explore absolute flex flex-row flex-nowrap w-100 h-100 o-20"
+          style="transform: skew(-56deg, 26deg); opacity:0.15;">
+
+          </div>
+
+            <div class="relative flex flex-nowrap content-around-l content-start align-center flex-row w-100 mv5 overflow-scroll overflow-scroll-ios">
+
+          <div class="scroll-object relative flex flex-wrap self-start items-center align-center flex-column pa4-ns pv0">
+            <div class="relative flex flex-column w5 h5 br-100">
+              <img src="explore-tri-one.svg" />
+            </div>
+            <h4 class="f3 deep-purple z-999 lh-copy tl-ns tc mw5  z-99">
+              A protocol for livestreamed <span class="font-gta-eb">study</span> sessions on a topic.
+            </h4>
+
+          </div>
+          <div class="scroll-object relative flex flex-wrap self-start  items-center align-end flex-column pa4">
+            <div class="relative flex flex-column w5 h5 br-100">
+              <img src="explore-tri-two.svg" />
+            </div>
+            <h4 class="f3 deep-purple z-999 lh-copy tl-ns tc mw5  z-99">
+              A smart contract system for <span class="font-gta-eb">citation</span> management
+            </h4>
+          </div>
+
+          <div class="scroll-object relative flex flex-wrap self-start  items-center align-end flex-column pa4">
+            <div class="relative flex flex-column w5 h5 br-100">
+              <img src="explore-tri-three.svg" />
+            </div>
+            <h4 class="f3 deep-purple z-999 lh-copy tl-ns tc mw5  z-99">
+              An <span class="font-gta-eb">incentive</span> mechanism for accountability of learning goals.
+            </h4>
+          </div>
+
+          <div class="scroll-object relative flex flex-wrap self-start  items-center align-end flex-column pa4">
+            <div class="relative flex flex-column w5 h5 br-100">
+              <img src="explore-tri-four.svg" />
+            </div>
+            <h4 class="f3 deep-purple z-999 lh-copy tl-ns tc mw5  z-99">
+              Improving <span class="font-gta-eb">accessibility</span> to knowledge.
+            </h4>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="relative flex flex-wrap flex-column min-vh-100 content-center align-center justify-center items-center w-100  overflow-hidden ph3 ph0-ns">
+        <h4 class="f1 deep-purple z-999 lh-copy tc mw7 ">
+          <span class="font-gta-eb">How</span> do you adventure?
+        </h4>
+        <img class="absolute flex-ns dn w-80-l w-100 o-50 z--9 " src="howtopaths.svg" />
+
+        <ul class="list relative font-gta-r f2 flex flex-wrap deep-purple z-999 lh-copy tl mw7 pl0 mt0">
+          <img class="absolute flex dn-ns w-100 o-80 z--9 " src="howtopathsmobile.svg" />
+          <ul class="pl0 list ">
+            <li class="f2-ns f1 color-none z-999 lh-copy tl ttu uppercase font-gta-eb text-outline-deep-purple-small mv0 ">
+              1
+            </li>
+            <li class="mb5 f2-ns f3">
+              Decide what you'd like to <span class="font-gta-eb">explore</span> & how you'd like to explore it. Not sure? Our community can help.
+            </li>
+          </ul>
+          <ul class="pl0 list ">
+          <li class="f2-ns f1 color-none z-999 lh-copy tl ttu uppercase font-gta-eb text-outline-deep-purple-small mv0 ">
+            2
+          </li>
+          <li class="mb5 f2-ns f3">
+            Once you've begun, you start <span class="font-gta-eb">recording</span> your references, ideas & notes publicly so others can follow in your footsteps.
+          </li>
+          </ul>
+          <ul class="pl0 list">
+          <li class="f2-ns f1 color-none z-999 lh-copy tl ttu uppercase font-gta-eb text-outline-deep-purple-small mv0 ">
+            3
+          </li>
+          <li class="mb5 f2-ns f3">
+            When you feel your Adventure is complete, you create and publish an <span class="font-gta-eb">artifact</span> that can educate others about what you've discovered. It could be in the form of a blog post, photo essay, lecture, or anything you can think of.
+          </li>
+        </ul>
+        </ul>
+      </div>
+    </div>
+
+      </div>
+
+      <!-- Adventurer-in-Residence -->
+      <div class="slideshow relative flex flex-wrap flex-column items-center content-around align-center w-100 mv5-ns">
+
+
+          <div class="slideshow-obj slideshow-scroll absolute w-100 hot-pink o-10">
+            <!-- JS script appends the Attention content to the slideshow-obj class -->
+          </div>
+
+        <div class="flex flex-row flex-wrap justify-between w-100 mw8 pa5-ns pa2 ba bw2 b--deep-purple">
+        <h4 class="f1 w-100 deep-purple z-999 lh-copy-ns lh-title tc mr3-ns mt0 mv3-ns ">
+          <span class="font-gta-eb f1-ns f2">Adventurers</span>
+          in Residence
+        </h4>
+        <h4 class="f2 deep-purple z-999 lh-copy tl-ns tl  mv0 w-100">
+          We're here to support everyone who wishes to embark upon a Learning Adventure. This includes access to tooling, on-going feedback, and participation to the Playground community. <span class="font-gta-b ">Our AIR program extends this to include a $5,000 grant</span>. Everyone is welcome to apply. To learn how we assess & award AIR adventures, click <a class="link deep-purple bb bw2 br1 ph2 pv1" href="https://gitlab.com/fathom/fathom-playground/playground#decision-making">here.</a>
+        </h4>
+
+      </div>
+
+
+      </div>
+
+
+      <!-- CTA -->
+      <div class="dn flex flex-row-l flex-column items-between-ns items-between content-between w-100">
+
+        <div class="relative flex flex-column-l flex-row-m flex-column w-50-l w-100 self-start items-start align-center  mv5 mr5-ns b--deep-purple ">
+
+
+          <div class="relative flex flex-column w-100 mw6 content-center ba bw2  deep-purple">
+            <div class="flex w-100 flex-column pa4-ns pa2">
+
+            <h4 class="f2-ns f3 deep-purple z-999 lh-copy tc mw6 mr3 mt0  mb2 ">
+            <span class="font-gta-eb">Join</span> our first Learning Adventure.
+            </h4>
+            <h4 class="f4 deep-purple z-999 lh-copy tl ph4 mw6 mr3 ">
+            It's a weekly exploration into the tools, techniques & systems to improve your learning. No teachers necessary.
+            </h4>
+
+          </div>
+
+          <form class="relative flex flex-column items-start w-100"  action="https://tinyletter.com/FathomNetwork" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/FathomNetwork', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+
+            <div class="flex flex-column w-100 bw2 b--muted-purple">
+              <div class="flex flex-column-l flex-row-m flex-column content-between self-start w-100 bt  bw2 b--muted-purple">
+
+              <input class="la-email w-100-l w-50-m w-100 bg-muted-purple input outline mb0 ph2 pv3 bw1 bn font-gta-r f3 deep-purple mw7" placeholder="Your Email"  type="text" name="email" id="tlemail" style="outline: none; background-color: hsla(0, 0%, 98%, 0.2);" />
+              <input type="hidden" value="1" name="embed"/>
+              <input type="submit" value="Subscribe" class="w-100-l w-20-m w-100 flex content-center font-gta-r f3-ns f3 self-end bg-deep-purple light-orange align-center pv3 ph5 pointer"
+              style="outline: none; " />
+
+              </div>
+            </div>
+          </form>
+
+          </div>
+        </div>
+
+        <div class="flex flex-wrap w-50-l w-100 mw7-l self-start items-start align-center flex-column  mv5-l ba bw2 b--deep-purple bg-deep-purple light-orange  pa3">
+          <div class="flex w-100 items-center flex-column" id="link-air">
+
+            <h3 class="f1-ns f2 fw4 flex light-orange z-999 lh-copy tc mw7">
+                Start a Learning Adventure with us
+            </h3>
+            <h6 class="fw4 flex muted-purple z-999 lh-copy tc mw7 mt0">
+              We'll help you submit your short <br />two-sentence adventure proposal &#x2198;
+            </h6>
+
+            <div class="link-secondary relative flex font-gta-r f2-ns f3 br-pill self-center light-orange bg-deep-purple align-center ba bw2-ns bw1  mv3 pv3 ph5 pointer" style="outline: none; ">
+            Start
+
+            <button class="link-secondary-active absolute flex font-gta-r f2-ns f3 br-pill self-center  bg-light-orange deep-purple b--light-orange align-center pv3 ph5 pointer"
+            style="outline: none; ">
+            Start
+            </button>
+          </div>
+
+        </div>
+
+
+            <div id="learn-adventures" class="dn flex-column items-center w-100 ">
+
+              <a id="close-form" href="#learn-adventures" class="link flex w-100 items-end content-end">
+                <div class="link muted-purple flex self-end ph4 pv3 ba bw1 font-gta-r">
+                  Close
+                </div>
+              </a>
+
+              <h4 class="f2-ns f3 flex  z-999 lh-copy tl mw7 muted-purple">
+                  We don't need detailed plans to get started, just rough ideas. Tell us your idea in two sentences:
+              </h4>
+
+              <form class="flex flex-column items-start w-100" netlify-honeypot="derp-field"  name="submit-adventure" method="POST" netlify action="/success">
+                <input class="dn" name="derp-field" />
+
+                <div class="flex flex-column w-100 ba bw2 b--muted-purple mv3">
+                  <div class="flex flex-row items-center self-start w-100 pv3 bb bw2 b--muted-purple">
+                    <h4 class="w-100 f2-ns f4 fw4 tc mv2-l mv0"><span class="font-gta-eb">What</span> do you want to explore?</h4>
+                  </div>
+
+                  <textarea name="adventure" placeholder="Well, it all begins with.." resize="false" style="outline: none; background-color: hsla(0, 0%, 98%, 0.2); min-height:12rem;"  class="submit w-100 input outline pa3 muted-purple bw2 font-gta-r f3 deep-purple"></textarea>
+                </div>
+
+                <div class="flex flex-row-ns flex-column w-100 ba bw2 b--muted-purple">
+                  <div class="flex flex-row-ns flex-column w-100-ns w-100 self-start  bw2" style="border-width:.25rem;">
+                    <div class="f3-ns f4 fw4 tc font-gta-r w-100 pv3 br-ns bw2" style="border-width:0.25rem;">Please share your <span class="font-gta-eb">email</span><sup>*</sup>
+                    </div>
+                    <div class="flex w-100 bt bn-ns bw2">
+                      <input class="w-100 bg-muted-purple input outline mb0 ph2 pv3 bn bw2  font-gta-r f3 muted-purple mw7 br1" placeholder="Your email" type="email" name="email" style="outline: none; background-color: hsla(0, 0%, 98%, 0.2);" />
+                    </div>
+                  </div>
+                </div>
+                <div class="f5-ns f4 fw4 tc font-gta-r w-100 pv3 bl br bb bw2">
+                  <span class="f4 muted-purple mv0"><sup>*</sup> We'll email you personally about your submission. </span>
+
+                </div>
+
+                <div class="flex flex-column w-100 ba bw2 mv3">
+                  <div class="flex flex-row items-center w-100 bb b--muted-purple bw2">
+                  <h3 class="w-100 f3-ns f4 fw4 tc font-gta-r lh-copy mv0 pv3 ph1">Do you want to apply for the Adventurer-in-Residence program?
+                  </h3>
+                  </div>
+                  <label class="flex w-100 f3-ns f4 fw4 tl font-gta-r lh-copy">
+                      <div class="flex flex-row items-center justify-center align-center w-50 ttu uppercase br bw2">
+                        <div class="flex w-100 ph2 items-center" style="background-color:hsla(0, 0%, 98%, 0.2);">
+                          <input class="flex w-100" type="radio" name="air-select" value="air-yes" />
+                          <span class="f2 ml2">Yes</span>
+                        </div>
+                      </div>
+                      <div class="flex flex-row items-center justify-center align-center w-50 ttu uppercase">
+                        <div class="flex w-100 ph2 items-center" style="background-color:hsla(0, 0%, 98%, 0.2);">
+                        <input class="flex w-100" type="radio" name="air-select" value="air-no" />
+                        <span class="f2 ml2">NO</span>
+                        </div>
+                      </div>
+                  </label>
+                </div>
+
+                  <div class="w-100 content-center self-end link-secondary relative flex font-gta-r f2-ns f3 self-end deep-purple bg-muted-purple align-center b--muted-purple bw2-ns bw1 pv3 ph5 pointer" style="outline: none; ">
+                  Send
+
+                  <button type="submit" class="w-100 link-secondary-active absolute flex content-center font-gta-r f2-ns f3 self-center  bg-light-orange deep-purple b--light-orange align-center pv3 ph5 pointer"
+                  style="outline: none; ">
+                  Send
+                  <img class="flex" src="ico-send-submission.svg" />
+                  </button>
+                  <img class="flex" src="ico-send-submission.svg" />
+                  </div>
+                </form>
+            </div>
+        </div>
+      </div>
+
+      <div class="flex flex-row-l flex-column justify-between items-center w-100 mt3">
+        <h6 class="f3  mv2 deep-purple bg-deep-purple muted-purple pa2 br-100">OR</h6>
+        <a class="link pointer" href="mailto:contact@fathom.network" target="_blank">
+        <div class="relative link-secondary flex flex-wrap self-start items-center align-center flex-column  mv3 mh2 mh0-ns bg-light-orange ba bw1 deep-purple  pa3-ns ph2 pa1 br-pill">
+
+            <h4 class="f3  fw4 flex deep-purple z-999 lh-copy tc mw7 mv0">
+                Contact Us
+            </h4>
+            <!--hover state-->
+            <div class="absolute link-secondary-active flex flex-wrap w-100 self-start items-center align-center flex-column  light-orange ba bw1 bg-deep-purple  pa3-ns pa2 br-pill">
+
+                <h4 class="f3  fw4 flex light-orange z-999 lh-copy tc mw7 mv0">
+                    Contact Us
+                </h4>
+            </div>
+        </div>
+        </a>
+        <a class="link pointer" href="https://gitlab.com/fathom/fathom-playground/playground/" target="_blank">
+        <div class="relative link-secondary flex flex-wrap self-start items-center align-center flex-column  mv3 mh2 mh0-ns bg-light-orange ba bw1 deep-purple  pa3-ns pa1 ph3 br-pill">
+
+            <h4 class="f3  fw4 flex deep-purple z-999 lh-copy tc mw7 mv0">
+                Read the Docs
+            </h4>
+            <!--hover state-->
+            <div class="absolute link-secondary-active flex flex-wrap w-100 self-start items-center align-center flex-column  light-orange ba bw1 bg-deep-purple b--deep-purple pa3-ns pa2 br-pill">
+
+                <h4 class="f3  fw4 flex light-orange z-999 lh-copy tc mw7 mv0">
+                    Read the Docs
+                </h4>
+            </div>
+        </div>
+        </a>
+        <a class="link pointer" href="https://www.fathom.network" target="_blank">
+        <div class="relative link-secondary flex flex-wrap self-start items-center align-center flex-column  mv3 mh2 mh0-ns bg-light-orange ba bw1 deep-purple  pa3-ns pa1 ph3 br-pill">
+
+            <h4 class="f3  fw4 flex deep-purple z-999 lh-copy tc mw7 mv0">
+                Learn About Fathom
+            </h4>
+            <!--hover state-->
+            <div class="absolute link-secondary-active flex flex-wrap w-100 self-start items-center align-center flex-column  light-orange ba bw1 bg-deep-purple b--deep-purple pa3-ns pa2 br-pill">
+
+                <h4 class="f3  fw4 flex light-orange z-999 lh-copy tc mw7 mv0">
+                    Learn About Fathom
+                </h4>
+            </div>
+        </div>
+        </a>
+      </div>
+
+
+
+
+          </div>
+          </a>
+        </div>
+
+
+
+
+  </body>
+
+<script>
+
+  document.getElementById('link-air').onclick = function() {
+    document.getElementById('learn-adventures').scrollIntoView({
+      behavior: 'smooth'
+    });
+    document.getElementById('learn-adventures').classList.add('flex');
+    document.getElementById('learn-adventures').classList.remove('dn');
+    document.getElementById('link-air').classList.add('dn');
+    document.getElementById('link-air').classList.remove('flex');
+
+  }
+
+  document.getElementById('close-form').onclick = function() {
+    document.getElementById('learn-adventures').classList.remove('flex');
+    document.getElementById('learn-adventures').classList.add('dn');
+    document.getElementById('link-air').classList.add('flex');
+    document.getElementById('link-air').classList.remove('dn');
+
+  }
+
+</script>
+
+<script>
+
+var targetExplore = document.querySelector(".obj-explore");
+targetExplore.innerHTML += `
+
+<h3 class="obj-explore f3 hot-pink" style="transform:skew(0deg, -39deg);">
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+</h3>
+<h3 class="obj-explore f3 hot-pink" style="transform:skew(0deg, 15deg);">
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+</h3>
+<h3 class="obj-explore f3 hot-pink" style="transform: skew(0deg, -8deg);
+    margin-top: 3.2rem;">
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+</h3>
+<h3 class="obj-explore f3 hot-pink">
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+</h3>
+<h3 class="obj-explore f3 hot-pink">
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+EXPLOREEXPLOREXPLOREEXPLORE
+</h3>
+
+
+`
+
+var targetAir = document.querySelector(".slideshow-obj");
+targetAir.innerHTML += `
+
+  <div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>
+<div class="flex flex-row w-100 relative ttu uppercase">
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+  <h4 style="transform:rotate(-45deg);" class="f3 mv0" >Announcing</h4>
+</div>`;
+
+</script>
+
+
+<script>
+
+
+var targetAir = document.querySelector(".obj-title");
+targetAir.innerHTML += `
+
+
+  <div class="obj-blur-target flex flex-row items-center-ns items-center content-start w-100 h5" style="
+    transform: skew(-33deg, 268deg);">
+
+    <h4 class="f4 deep-purple ttu uppercase mv0 font-gta-eb"
+    style="
+    transform: skew(400deg, 283deg);
+    text-shadow: 2px 2px hsla(237, 100%, 17%, 1);
+    ">
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+      PlaygroundPlaygroundPlaygroundPlaygroundPlayground
+                  </h4>
+
+                </div>
+
+              </div>
+
+`
+</script>
+
+</html>
